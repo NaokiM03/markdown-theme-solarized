@@ -1,0 +1,31 @@
+{
+  "name": "@naokim03/markdown-theme-solarized",
+  "version": "1.0.2",
+  "description": "Solarized theme for markdown",
+  "main": "markdown.min.css",
+  "style": "markdown.min.css",
+  "files": [
+    "markdown.min.css"
+  ],
+  "scripts": {
+    "build": "tailwindcss -i ./markdown.css -o ./markdown.min.css -m"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NaokiM03/markdown-theme-solarized.git"
+  },
+  "author": "NaokiM03",
+  "license": "MIT",
+  "keywords": [
+    "css",
+    "markdown",
+    "solarized"
+  ],
+  "bugs": {
+    "url": "https://github.com/NaokiM03/markdown-theme-solarized/issues"
+  },
+  "homepage": "https://github.com/NaokiM03/markdown-theme-solarized#readme",
+  "publishConfig": {
+    "access": "public"
+  }
+}
